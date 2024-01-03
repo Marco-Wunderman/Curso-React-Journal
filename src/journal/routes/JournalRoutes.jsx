@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router";
-import { JournalPage } from "../JournalPage";
+import { JournalPage } from "../pages/JournalPage";
 
 export const JournalRoutes = () => {
   return (
