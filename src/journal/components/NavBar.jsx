@@ -34,8 +34,8 @@ export const NavBar = ({ drawerWidth }) => {
           <Typography variant="h6" noWrap>
             JorunalApp
           </Typography>
-          <IconButton color="error">
-            <LogoutOutlined onClick={onLogout} />
+          <IconButton color="error" onClick={onLogout}>
+            <LogoutOutlined />
           </IconButton>
         </Grid>
       </Toolbar>
